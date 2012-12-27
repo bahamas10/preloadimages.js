@@ -34,7 +34,7 @@ to load).  The argument passed to the callback is either an array or object
 to match the input, and if it is an array, it will be in the same order
 as the input array.
 
-The elements in the returned argument contains `new Image()` elements.
+The items in the returned argument are `new Image()` elements.
 
 License
 -------
