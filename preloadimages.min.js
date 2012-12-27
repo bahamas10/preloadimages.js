@@ -1,0 +1,1 @@
+function preloadimages(n,o){function r(){++a>=e&&o(i)}var a=0,e=0,i=n instanceof Array?[]:{};for(var c in n)e++,i[c]=new Image,i[c].src=n[c],i[c].onload=r,i[c].onerror=r,i[c].onabort=r}
