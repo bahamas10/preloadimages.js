@@ -1,3 +1,13 @@
+/**
+ * preloadimages()
+ * 
+ * preleoad an array or object full of image URI's
+ * and callback when they are all loaded with an
+ * array or object of `img` objects
+ *
+ * Author: Dave Eddy <dave@daveeddy.com>
+ * License: MIT
+ */
 function preloadimages(obj, cb) {
   var loaded = 0;
   var toload = 0;
