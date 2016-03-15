@@ -23,7 +23,7 @@ preloadimages(['1.png', '2.png'], function(images) {
 or
 
 ``` js
-preloadimages({moon: 'moon.png', sun: 'sun.png'], function(images) {
+preloadimages({moon: 'moon.png', sun: 'sun.png'}, function(images) {
   console.log(images);
   // => {moon: img, sun: img}
 });
